@@ -32,6 +32,25 @@
   <version>1.0-SNAPSHOT</version>
   <name>Help Center Application</name>
   <description>Application that showcases the main XWiki features through demo content.</description>
+  <developers>
+    <developer>
+      <id>evalica</id>
+      <name>Ecaterina Moraru (Valica)</name>
+    </developer>
+    <developer>
+      <id>mflorea</id>
+      <name>Marius Dumitru Florea</name>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>jira</system>
+    <url>http://jira.xwiki.org/browse/HELPCENTER</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git://github.com/xwiki-contrib/application-help-center.git</connection>
+    <developerConnection>scm:git:git@github.com:xwiki-contrib/application-help-center.git</developerConnection>
+    <url>https://github.com/xwiki-contrib/application-help-center</url>
+  </scm>
   <properties>
     <help.base.path>${basedir}/src/main/resources/Help</help.base.path>
   </properties>
