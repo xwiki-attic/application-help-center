@@ -252,6 +252,12 @@
                 <file>${help.base.path}/Applications/AWM.webm</file>
                 <file>${help.base.path}/Applications/EM.mp4</file>
                 <file>${help.base.path}/Applications/EM.webm</file>
+                <file>${help.base.path}/Applications/blog.png</file>
+                <file>${help.base.path}/Applications/filemanager.png</file>
+                <file>${help.base.path}/Applications/forum.png</file>
+                <file>${help.base.path}/Applications/ideas.png</file>
+                <file>${help.base.path}/Applications/meeting.png</file>
+                <file>${help.base.path}/Applications/menu.png</file>
               </files>
               <sourceDocument>${project.build.outputDirectory}/Help/Applications/WebHome.xml</sourceDocument>
               <outputDirectory>${project.build.outputDirectory}/Help</outputDirectory>
