@@ -23,16 +23,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.xwiki.platform</groupId>
-    <artifactId>xwiki-platform-help</artifactId>
-    <version>9.1-SNAPSHOT</version>
+    <groupId>org.xwiki.contrib</groupId>
+    <artifactId>parent-platform</artifactId>
+    <version>8.4</version>
   </parent>
-  <artifactId>xwiki-platform-help-center</artifactId>
-  <name>XWiki Platform - Help - Center</name>
+  <artifactId>application-help-center</artifactId>
   <packaging>xar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Help Center Application</name>
+  <description>Application that showcases the main XWiki features through demo content.</description>
   <properties>
-    <!-- Name to display by the Extension Manager -->
-    <xwiki.extension.name>Help Center Application</xwiki.extension.name>
     <help.base.path>${basedir}/src/main/resources/Help</help.base.path>
   </properties>
   <dependencies>
@@ -42,7 +42,7 @@
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rendering-macro-velocity</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -54,26 +54,26 @@
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rendering-macro-include</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-icon-script</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-skin-skinx</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <!-- Required for the Example Macro -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rendering-wikimacro-store</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
     </dependency>
     <!--                                            -->
@@ -83,7 +83,7 @@
       <!-- Some links point to the Sandbox pages. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-sandbox</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -91,7 +91,7 @@
       <!-- Some links point to the Administration pages. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-administration-ui</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -99,7 +99,7 @@
       <!-- Link to the Macro Index. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rendering-wikimacro-ui</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -107,7 +107,7 @@
       <!-- Link to the Extension Manager to browse macros and applications. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-extension-ui</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -136,21 +136,21 @@
       <!-- Examples with the Gallery macro. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rendering-macro-gallery</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <!-- Examples with the Chart macro. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-chart-macro</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <!-- Examples with the Document Tree macro. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-index-tree-macro</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -158,7 +158,7 @@
       <!-- Examples with the Activity macro. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-activitystream-ui</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -166,7 +166,7 @@
       <!-- Demo application for App Within Minutes. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-appwithinminutes-ui</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -174,7 +174,7 @@
       <!-- Link to the Page Index for Content Organization example. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-index-ui</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -182,7 +182,7 @@
       <!-- Link to the XWiki Syntax help page. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-help-ui</artifactId>
-      <version>${project.version}</version>
+      <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
     </dependency>
@@ -219,7 +219,7 @@
       <plugin>
         <groupId>org.xwiki.platform</groupId>
         <artifactId>xwiki-platform-tool-xmldoc-update-plugin</artifactId>
-        <version>${project.version}</version>
+        <version>${platform.version}</version>
         <executions>
           <execution>
             <id>attach-applications-videos</id>
