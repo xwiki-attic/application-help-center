@@ -11,4 +11,4 @@ Application that showcases the main XWiki features through demo content.
 * License: LGPL 2.1
 * Translations: N/A
 * Sonar Dashboard: N/A
-* Continuous Integration Status: [![Build Status](http://ci.xwiki.org/buildStatus/icon?job=XWiki Contrib/application-help-center/master)](http://ci.xwiki.org/view/Contrib/job/XWiki%20Contrib/job/application-help-center/job/master/)
+* Continuous Integration Status: [![Build Status](http://ci.xwiki.org/view/Contrib/job/XWiki%20Contrib/job/application-help-center/job/master/badge/icon)](http://ci.xwiki.org/view/Contrib/job/XWiki%20Contrib/job/application-help-center/job/master/)
