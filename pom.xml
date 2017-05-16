@@ -29,7 +29,7 @@
   </parent>
   <artifactId>application-help-center</artifactId>
   <packaging>xar</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <name>Help Center Application</name>
   <description>Application that showcases the main XWiki features through demo content.</description>
   <developers>
@@ -50,7 +50,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/application-help-center.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-help-center.git</developerConnection>
     <url>https://github.com/xwiki-contrib/application-help-center</url>
-    <tag>HEAD</tag>
+    <tag>application-help-center-1.1</tag>
   </scm>
   <properties>
     <help.base.path>${basedir}/src/main/resources/Help</help.base.path>
