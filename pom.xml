@@ -116,14 +116,6 @@
       <type>xar</type>
     </dependency>
     <dependency>
-      <!-- Link to the Macro Index. -->
-      <groupId>org.xwiki.platform</groupId>
-      <artifactId>xwiki-platform-rendering-wikimacro-ui</artifactId>
-      <version>${platform.version}</version>
-      <scope>runtime</scope>
-      <type>xar</type>
-    </dependency>
-    <dependency>
       <!-- Link to the Extension Manager to browse macros and applications. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-extension-ui</artifactId>
@@ -199,7 +191,7 @@
       <type>xar</type>
     </dependency>
     <dependency>
-      <!-- Link to the XWiki Syntax help page. -->
+      <!-- Link to the XWiki Syntax help page + Macro List. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-help-ui</artifactId>
       <version>${platform.version}</version>
