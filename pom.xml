@@ -25,7 +25,7 @@
   <parent>
     <groupId>org.xwiki.contrib</groupId>
     <artifactId>parent-platform</artifactId>
-    <version>8.4</version>
+    <version>9.11-5</version>
   </parent>
   <artifactId>application-help-center</artifactId>
   <packaging>xar</packaging>
@@ -167,9 +167,9 @@
       <type>xar</type>
     </dependency>
     <dependency>
-      <!-- Examples with the Activity macro. -->
+      <!-- Examples with the Notifications macro. -->
       <groupId>org.xwiki.platform</groupId>
-      <artifactId>xwiki-platform-activitystream-ui</artifactId>
+      <artifactId>xwiki-platform-notifications-ui</artifactId>
       <version>${platform.version}</version>
       <scope>runtime</scope>
       <type>xar</type>
