@@ -7,7 +7,7 @@ Application that showcases the main XWiki features through demo content.
 * [Issue Tracker](http://jira.xwiki.org/browse/HELPCENTER)
 * Communication: [Mailing List](http://dev.xwiki.org/xwiki/bin/view/Community/MailingLists), [IRC](http://dev.xwiki.org/xwiki/bin/view/Community/IRC)
 * [Development Practices](http://dev.xwiki.org)
-* Minimal XWiki version supported: XWiki 8.4
+* Minimal XWiki version supported: XWiki 9.11
 * License: LGPL 2.1
 * Translations: N/A
 * Sonar Dashboard: N/A
