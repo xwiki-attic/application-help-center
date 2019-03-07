@@ -39,57 +39,60 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content>{{box cssClass="floatinginfobox"}}
+  <content>{{velocity}}
+
+{{box cssClass="floatinginfobox"}}
 {{toc start="2" /}}
 {{/box}}
 
-**Box Macro** displays a message in a styled box. [[Learn more&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Box+Macro]]
+$services.localization.render('help.macros.boxMacros.description', ['**','**']) [[$services.localization.render('help.learnMore.label')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Box+Macro]]
 
-There are several specialised box macros: 
-* [[Info Macro&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Info+Macro]]
-* [[Success Macro&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Success+Macro]]
-* [[Warning Macro&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Warning+Macro]]
-* [[Error Macro&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Error+Macro]]
+$services.localization.render('help.macros.thereAreSeveralSpecialisedBoxMacros')
+* [[$services.localization.render('help.macros.infoMacro')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Info+Macro]]
+* [[$services.localization.render('help.macros.successMacro')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Success+Macro]]
+* [[$services.localization.render('help.macros.warningMacro')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Warning+Macro]]
+* [[$services.localization.render('help.macros.errorMacro')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Error+Macro]]
 
-== Box Macro ==
+== $services.localization.render('help.macros.boxMacro.title') ==
 
 {{example}}
-{{box title="Title of the box" width="30%"}}
-This is a box message
+{{box title="$services.localization.render('help.macros.titleOfTheBox')" width="30%"}}
+$services.localization.render('help.macros.thisIsABoxMessage')
 {{/box}}
 {{/example}}
 
-== Info Macro ==
+== $services.localization.render('help.macros.infoMacro') ==
 
 {{example}}
 {{info}}
-This is an informative message
+$services.localization.render('help.macros.thisIsAnInfoMacro')
 {{/info}}
 {{/example}}
 
-== Success Macro ==
+== $services.localization.render('help.macros.successMacro') ==
 
 {{example}}
 {{success}}
-This is a success message
+$services.localization.render('help.macros.thisIsASuccessMessage')
 {{/success}}
 {{/example}}
 
-== Warning Macro ==
+== $services.localization.render('help.macros.warningMacro') ==
 
 {{example}}
 {{warning}}
-This is a warning message
+$services.localization.render('help.macros.thisIsAWarningMessage')
 {{/warning}}
 {{/example}}
 
-== Error Macro ==
+== $services.localization.render('help.macros.errorMacro') ==
 
 {{example}}
 {{error}}
-This is an error message
+$services.localization.render('help.macros.thisIsAnErrorMessage')
 {{/error}}
-{{/example}}</content>
+{{/example}}
+{{/velocity}}</content>
   <attachment>
     <filename>box.png</filename>
     <mimetype>image/png</mimetype>

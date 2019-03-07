@@ -39,44 +39,46 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content>{{box cssClass="box floatinginfobox" title="**Summary**"}}
+  <content>{{velocity}}
+{{box cssClass="box floatinginfobox" title="**$services.localization.render('help.templates.meeting.summary')**"}}
 {{toc start='2'/}}
 {{/box}}
 
-= Team Meeting =
+= $services.localization.render('help.templates.meeting.teamMeeting') =
 
-**04 SEPTEMBER 20XX** / 10:00 AM / CONFERENCE ROOM
+**$services.localization.render('help.templates.meeting.date')** / $services.localization.render('help.templates.meeting.hour') / $services.localization.render('help.templates.meeting.conferenceRoom')
 
-== Attendees ==
+== $services.localization.render('help.templates.meeting.attendees') ==
 
 Jude Parker, Casey Baumer, Ashton Smith
 
-== Agenda ==
+== $services.localization.render('help.templates.meeting.agenda') ==
 
-=== Last Meeting Follow-up ===
+=== $services.localization.render('help.templates.meeting.lastMeetingFollowUp') ===
 
 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-=== New Business ===
+=== $services.localization.render('help.templates.meeting.newBusiness') ===
 
 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 1. Suspendisse scelerisque mi a mi.
 
-== Notes ==
+== $services.localization.render('help.templates.meeting.notes') ==
 
 * Lorem ipsum dolor sit amet consectetuer adipiscing elit.
 * Suspendisse scelerisque mi a mi.
 * Vestibulum ante ipsum primis elementum, libero interdum auctor cursus, sapien enim dictum quam.
 ** Phasellus vehicula nonummy nunc.
 
-== Action Items ==
+== $services.localization.render('help.templates.meeting.actionItems') ==
 
 1. Lorem ipsum dolor sit amet consectetuer adipiscing elit.
 1. Suspendisse scelerisque mi a mi
 
-== Next Meeting Agenda ==
+== $services.localization.render('help.templates.meeting.nextMeetingAgenda') ==
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</content>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+{{/velocity}}</content>
   <attachment>
     <filename>meeting.png</filename>
     <mimetype>image/png</mimetype>

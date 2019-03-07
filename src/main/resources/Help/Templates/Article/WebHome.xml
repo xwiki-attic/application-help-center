@@ -34,16 +34,19 @@
   <date>1486462016000</date>
   <contentUpdateDate>1486461655000</contentUpdateDate>
   <version>1.1</version>
-  <title>Article</title>
+  <title>$services.localization.render('help.templates.article.title')</title>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content>(% class="jumbotron" %)
+  <content>{{velocity}}
+(% class="jumbotron" %)
 (((
 (% class="container" %)
 (((
-= My new article =
+
+= $services.localization.render('help.templates.article.myNewArticle') =
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra enim quis tristique tincidunt. Morbi nec hendrerit mi. Mauris convallis tortor et justo gravida elementum. Mauris dictum imperdiet quam, quis sodales velit tempus varius. Ut convallis mi rutrum imperdiet eleifend. Ut diam sapien, iaculis facilisis nisl non, varius cursus eros. Praesent vitae ipsum molestie enim pulvinar semper nec a nisi.
 )))
@@ -53,32 +56,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra enim quis t
 (((
 (% class="col-xs-12 col-sm-8" %)
 (((
-= Paragraph 1 =
+= $services.localization.render('help.templates.paragraph') 1 =
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-== Sub-paragraph ==
+== $services.localization.render('help.templates.subParagraph') ==
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-== Sub-paragraph ==
+== $services.localization.render('help.templates.subParagraph') ==
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-=== Sub-sub paragraph ===
+=== $services.localization.render('help.templates.subSubParagraph') ===
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-= Paragraph 2 =
+= $services.localization.render('help.templates.paragraph') 2=
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-== Sub-paragraph ==
+== $services.localization.render('help.templates.subParagraph') ==
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-== Sub-paragraph ==
+== $services.localization.render('help.templates.subParagraph') ==
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 )))
@@ -86,17 +89,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 (% class="col-xs-12 col-sm-4" %)
 (((
-{{box title="**Contents**"}}
+{{box title="**$services.localization.render('help.templates.contents')**"}}
 {{toc /}}
 {{/box}}
 
 [[image:Templates.Article.Template.WebHome@image1.jpg||style="width: 100%"]]
-//Figure 1: [[Sea&gt;&gt;https://commons.wikimedia.org/wiki/File:Isle_of_Icacos_II.jpg]]//
+//$services.localization.render('help.templates.figure') 1: [[$services.localization.render('help.templates.sea')&gt;&gt;https://commons.wikimedia.org/wiki/File:Isle_of_Icacos_II.jpg]]//
 
 [[image:Templates.Article.Template.WebHome@image2.jpg||style="width: 100%"]]
-//Figure 2: [[Waves&gt;&gt;https://commons.wikimedia.org/wiki/File:Culebra_-_Playa_de_Flamenco.jpg]]//
+//$services.localization.render('help.templates.figure') 2: [[$services.localization.render('help.templates.waves')&gt;&gt;https://commons.wikimedia.org/wiki/File:Culebra_-_Playa_de_Flamenco.jpg]]//
 )))
-)))</content>
+)))
+{{/velocity}}</content>
   <attachment>
     <filename>article.png</filename>
     <mimetype>image/png</mimetype>

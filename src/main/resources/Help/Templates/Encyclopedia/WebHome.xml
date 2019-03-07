@@ -39,7 +39,8 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>false</hidden>
-  <content>(% class="row" %)
+  <content>{{velocity}}
+(% class="row" %)
 (((
 (% class="col-xs-12 col-sm-8" %)
 (((
@@ -51,36 +52,36 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 )))
 )))
 
-= Paragraph 1 =
+= $services.localization.render('help.templates.paragraph') 1=
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-== Sub-paragraph ==
+== $services.localization.render('help.templates.subParagraph') ==
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-== Sub-paragraph ==
+== $services.localization.render('help.templates.subParagraph') ==
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-=== Sub-sub paragraph ===
+=== $services.localization.render('help.templates.subSubParagraph') ===
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-= Paragraph 2 =
+= $services.localization.render('help.templates.paragraph') 2=
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-== Sub-paragraph ==
+== $services.localization.render('help.templates.subParagraph') ==
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-== Sub-paragraph ==
+== $services.localization.render('help.templates.subParagraph') ==
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-= References =
+= $services.localization.render('help.templates.references') =
 
 * [[XWiki&gt;&gt;http://www.xwiki.org]]
 * [[XWiki Extensions&gt;&gt;http://www.xwiki.org]]
@@ -90,24 +91,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 (((
 (% class="box" %)
 (((
-= Falabella =
+= $services.localization.render('help.templates.encyclopedia.falabella') =
 
 [[image:Templates.Encyclopedia.Template.WebHome@image.jpg||style="width: 100%"]]
 
-|=Morphology|Miniature horse
-|=Region|[[Argentina&gt;&gt;Main.WebHome]]
-|=Price|1200 €
-|=Image|[[Credits&gt;&gt;https://commons.wikimedia.org/wiki/File:FalabellaFestivo.jpg]]
+|=$services.localization.render('help.templates.encyclopedia.morphology')|$services.localization.render('help.templates.encyclopedia.miniatureHorse')
+|=$services.localization.render('help.templates.encyclopedia.region')|[[Argentina&gt;&gt;Main.WebHome]]
+|=$services.localization.render('help.templates.encyclopedia.price')|1200 €
+|=$services.localization.render('help.templates.encyclopedia.image')|[[$services.localization.render('help.templates.encyclopedia.credits')&gt;&gt;https://commons.wikimedia.org/wiki/File:FalabellaFestivo.jpg]]
 )))
 
 (% class="box" %)
 (((
-**Contents**
+**$services.localization.render('help.templates.contents')**
 
 {{toc/}}
 )))
 )))
-)))</content>
+)))
+{{/velocity}}</content>
   <attachment>
     <filename>encyclopedia.png</filename>
     <mimetype>image/png</mimetype>
