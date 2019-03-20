@@ -48,19 +48,19 @@
   'tip':$services.localization.render('help.templates.useTemplates.tip', ["&lt;a href='http://platform.xwiki.org/xwiki/bin/view/Features/DocumentLifecycle#HCreate' class='wikiexternallink'&gt;",'&lt;/a&gt;']),
    'thumbnail': 'Template',
   'actions': [{
-    'label': $services.localization.render('help.tryIt.label'),
+    'label': $services.localization.render('help.try.label'),
     'type': 'success',
     'url': $xwiki.getURL('Sandbox.WebHome', 'create', $escapetool.url({
       'title': "New Page $datetool.get('dd MMM yyyy, HH:mm')"
     }))
   }]
 }, {
-  'title': $services.localization.render('help.templates.createYourTemplate.title'),
-  'description': $services.localization.render('help.templates.createYourTemplate.description'),
-  'tip': $services.localization.render('help.templates.createYourTemplate.tip', ["&lt;a href='http://extensions.xwiki.org/xwiki/bin/view/Extension/Administration+Application#HCreatetheTemplateProvider' class='wikiexternallink'&gt;",'&lt;/a&gt;']),
+  'title': $services.localization.render('help.templates.create.title'),
+  'description': $services.localization.render('help.templates.create.description'),
+  'tip': $services.localization.render('help.templates.create.tip', ["&lt;a href='http://extensions.xwiki.org/xwiki/bin/view/Extension/Administration+Application#HCreatetheTemplateProvider' class='wikiexternallink'&gt;",'&lt;/a&gt;']),
   'thumbnail': 'Administration',
   'actions': [{
-    'label': $services.localization.render('help.learnMore.label'),
+    'label': $services.localization.render('help.more.label'),
     'url': 'http://extensions.xwiki.org/xwiki/bin/view/Extension/Administration+Application#HCreatetheTemplateProvider'
   }]
 }])
@@ -83,13 +83,13 @@
   'examples': 'Help.Templates.Encyclopedia.WebHome',
   'thumbnail': 'Help.Templates.Encyclopedia.WebHome@encyclopedia.png'
 }, {
-  'title': $services.localization.render('help.templates.meetingReport.title'),
-  'description': $services.localization.render('help.templates.meetingReport.description'),
+  'title': $services.localization.render('help.templates.meeting.title'),
+  'description': $services.localization.render('help.templates.meeting.description'),
   'examples': 'Help.Templates.Meeting.WebHome',
   'thumbnail': 'Help.Templates.Meeting.WebHome@meeting.png'
 }, {
-  'title': $services.localization.render('help.templates.simplePage.title'),
-  'description': $services.localization.render('help.templates.simplePage.description'),
+  'title': $services.localization.render('help.templates.simple.title'),
+  'description': $services.localization.render('help.templates.simple.description'),
   'examples': 'Help.Templates.Simple.WebHome',
   'thumbnail': 'Help.Templates.Simple.WebHome@simple.png'
 }])
@@ -127,7 +127,7 @@
     &lt;/div&gt;
   #end
 &lt;/div&gt;
-&lt;p&gt;&lt;a href="http://extensions.xwiki.org/xwiki/bin/view/Extension/Templates+Application/" class="wikiexternallink"&gt;$services.localization.render('help.templates.viewMoreTemplates')&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://extensions.xwiki.org/xwiki/bin/view/Extension/Templates+Application/" class="wikiexternallink"&gt;$services.localization.render('help.templates.more')&lt;/a&gt;&lt;/p&gt;
 {{/html}}
 {{/velocity}}</content>
 </xwikidoc>

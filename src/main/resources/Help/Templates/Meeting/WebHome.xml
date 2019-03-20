@@ -44,38 +44,38 @@
 {{toc start='2'/}}
 {{/box}}
 
-= $services.localization.render('help.templates.meeting.teamMeeting') =
+= $services.localization.render('help.templates.meeting.header1') =
 
 **$services.localization.render('help.templates.meeting.date')** / $services.localization.render('help.templates.meeting.hour') / $services.localization.render('help.templates.meeting.conferenceRoom')
 
-== $services.localization.render('help.templates.meeting.attendees') ==
+== $services.localization.render('help.templates.meeting.header2') ==
 
 Jude Parker, Casey Baumer, Ashton Smith
 
-== $services.localization.render('help.templates.meeting.agenda') ==
+== $services.localization.render('help.templates.meeting.header3') ==
 
-=== $services.localization.render('help.templates.meeting.lastMeetingFollowUp') ===
+=== $services.localization.render('help.templates.meeting.header4') ===
 
 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-=== $services.localization.render('help.templates.meeting.newBusiness') ===
+=== $services.localization.render('help.templates.meeting.header5') ===
 
 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 1. Suspendisse scelerisque mi a mi.
 
-== $services.localization.render('help.templates.meeting.notes') ==
+== $services.localization.render('help.templates.meeting.header6') ==
 
 * Lorem ipsum dolor sit amet consectetuer adipiscing elit.
 * Suspendisse scelerisque mi a mi.
 * Vestibulum ante ipsum primis elementum, libero interdum auctor cursus, sapien enim dictum quam.
 ** Phasellus vehicula nonummy nunc.
 
-== $services.localization.render('help.templates.meeting.actionItems') ==
+== $services.localization.render('help.templates.meeting.header7') ==
 
 1. Lorem ipsum dolor sit amet consectetuer adipiscing elit.
 1. Suspendisse scelerisque mi a mi
 
-== $services.localization.render('help.templates.meeting.nextMeetingAgenda') ==
+== $services.localization.render('help.templates.meeting.header8') ==
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 {{/velocity}}</content>

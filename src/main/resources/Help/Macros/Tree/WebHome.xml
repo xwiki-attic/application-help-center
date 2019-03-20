@@ -34,7 +34,7 @@
   <date>1486399086000</date>
   <contentUpdateDate>1486399086000</contentUpdateDate>
   <version>1.1</version>
-  <title>$services.localization.render('help.macros.tree.title')</title>
+  <title>$services.localization.render('help.macros.tree.pageTitle')</title>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
@@ -44,27 +44,27 @@
 {{toc start="2" /}}
 {{/box}}
 
-$services.localization.render('help.macros.tree.description', ['**']) [[$services.localization.render('help.learnMore.label')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Document+Tree+Macro]]
+$services.localization.render('help.macros.tree.pageDescription', ['**']) [[$services.localization.render('help.more.label')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Document+Tree+Macro]]
 
-== $services.localization.render('help.macros.tree.pageHierarchyTree') ==
+== $services.localization.render('help.macros.tree.header1') ==
 
 {{example}}
 {{documentTree /}}
 {{/example}}
 
-=== $services.localization.render('help.macros.tree.compactPageHierarchyTree') ===
+=== $services.localization.render('help.macros.tree.header2') ===
 
 {{example}}
 {{documentTree compact="true" /}}
 {{/example}}
 
-== $services.localization.render('help.macros.tree.wikiSpace',['&gt;']) ==
+== $services.localization.render('help.macros.tree.header3',['&gt;']) ==
 
 {{example}}
 {{documentTree showWikis="true" showSpaces="true" showTranslations="false" showAttachments="false" showChildDocuments="false" /}}
 {{/example}}
 
-== $services.localization.render('help.macros.tree.fullEntityTree') ==
+== $services.localization.render('help.macros.tree.header4') ==
 
 {{example}}
 {{documentTree showWikis="true" showWikiPrettyName="false" showSpaces="true" showDocumentTitle="false"

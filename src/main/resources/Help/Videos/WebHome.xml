@@ -43,52 +43,52 @@
 #set ($docextras = [])
 
 #set ($videoCards = [{
-  'title': $services.localization.render('help.videos.homepageOverview.title'),
+  'title': $services.localization.render('help.videos.videoCard1.title'),
   'topics': [
-    $services.localization.render('help.videos.homepageOverview.topic1'),
-    $services.localization.render('help.videos.homepageOverview.topic2')
+    $services.localization.render('help.videos.videoCard1.topic1'),
+    $services.localization.render('help.videos.videoCard1.topic2')
   ],
   'url': 'https://www.youtube.com/embed/p5g6aDGOqWY',
   'duration': '4 min'
 }, {
-  'title': $services.localization.render('help.videos.homepageCustomization.title'),
+  'title': $services.localization.render('help.videos.videoCard2.title'),
   'topics': [
-   $services.localization.render('help.videos.homepageCustomization.topic1'),
-   $services.localization.render('help.videos.homepageCustomization.topic2'),
-   $services.localization.render('help.videos.homepageCustomization.topic3')
+   $services.localization.render('help.videos.videoCard2.topic1'),
+   $services.localization.render('help.videos.videoCard2.topic2'),
+   $services.localization.render('help.videos.videoCard2.topic3')
   ],
   'url': 'https://www.youtube.com/embed/zX1Itoh3E68',
   'duration': '5 min'
 }, {
-  'title': $services.localization.render('help.videos.pageAndContentCreation.title'),
+  'title': $services.localization.render('help.videos.videoCard3.title'),
   'topics': [
-    $services.localization.render('help.videos.pageAndContentCreation.topic1'),
-    $services.localization.render('help.videos.pageAndContentCreation.topic2'),
-    $services.localization.render('help.videos.pageAndContentCreation.topic3')
+    $services.localization.render('help.videos.videoCard3.topic1'),
+    $services.localization.render('help.videos.videoCard3.topic2'),
+    $services.localization.render('help.videos.videoCard3.topic3')
     ],
   'url': 'https://www.youtube.com/embed/onenEu21FIk',
   'duration': '6 min'
 }, {
-  'title': $services.localization.render('help.videos.importingOfficeDocumentsToXWiki.title'),
+  'title': $services.localization.render('help.videos.videoCard4.title'),
   'topics': [
-    $services.localization.render('help.videos.importingOfficeDocumentsToXWiki.topic1'),
-    $services.localization.render('help.videos.importingOfficeDocumentsToXWiki.topic2')
+    $services.localization.render('help.videos.videoCard4.topic1'),
+    $services.localization.render('help.videos.videoCard4.topic2')
   ],
   'url': 'https://www.youtube.com/embed/csQVSRMVclM',
   'duration': '4 min'
 }, {
-  'title': $services.localization.render('help.videos.appWithinMinutes.title'),
+  'title': $services.localization.render('help.videos.videoCard5.title'),
   'topics': [
-    $services.localization.render('help.videos.appWithinMinutes.topic1'),
-    $services.localization.render('help.videos.appWithinMinutes.topic2')
+    $services.localization.render('help.videos.videoCard5.topic1'),
+    $services.localization.render('help.videos.videoCard5.topic2')
   ],
   'url': 'https://www.youtube.com/embed/Pv4jPCaU99g',
   'duration': '7 min'
 }, {
-  'title': $services.localization.render('help.videos.addRemoveExtensions.title'),
+  'title': $services.localization.render('help.videos.videoCard6.title'),
   'topics': [
-    $services.localization.render('help.videos.addRemoveExtensions.topic1'),
-    $services.localization.render('help.videos.addRemoveExtensions.topic2')
+    $services.localization.render('help.videos.videoCard6.topic1'),
+    $services.localization.render('help.videos.videoCard6.topic2')
   ],
   'url': 'https://www.youtube.com/embed/Q4NHu6J5pX4',
   'duration': '3 min'
@@ -137,7 +137,7 @@
 &lt;/div&gt;
 {{/html}}
 
-[[ $services.localization.render('help.videos.viewMoreVideos')&gt;&gt;https://www.youtube.com/playlist?list=PLhe7KI1rstRQeLSHxcTozZ0HJSk-mIYzt]]
+[[ $services.localization.render('help.videos.more')&gt;&gt;https://www.youtube.com/playlist?list=PLhe7KI1rstRQeLSHxcTozZ0HJSk-mIYzt]]
 {{/velocity}}</content>
   <object>
     <name>Help.Videos.WebHome</name>

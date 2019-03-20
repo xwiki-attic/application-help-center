@@ -54,22 +54,22 @@
 #end
 
 #set ($actionCards = [{
-  'title': $services.localization.render('help.applications.createYourApplication.title'),
-  'description': $services.localization.render('help.applications.createYourApplication.description'),
-  'tip': $services.localization.render('help.applications.createYourApplication.tip', ["&lt;a href='http://extensions.xwiki.org/xwiki/bin/view/Extension/App+Within+Minutes+Application' class='wikiexternallink'&gt;", '&lt;/a&gt;']),
+  'title': $services.localization.render('help.applications.create.title'),
+  'description': $services.localization.render('help.applications.create.description'),
+  'tip': $services.localization.render('help.applications.create.tip', ["&lt;a href='http://extensions.xwiki.org/xwiki/bin/view/Extension/App+Within+Minutes+Application' class='wikiexternallink'&gt;", '&lt;/a&gt;']),
   'thumbnail': 'AWM',
   'actions': [{
-    'label': $services.localization.render('help.tryIt.label'),
+    'label': $services.localization.render('help.try.label'),
     'type': 'success',
     'url': $xwiki.getURL('AppWithinMinutes.CreateApplication')
   }, {
-    'label': $services.localization.render('help.applications.createYourApplication.demo.label'),
+    'label': $services.localization.render('help.applications.create.demo.label'),
     'url': $xwiki.getURL('Help.Applications.Movies')
   }]
 }, {
-  'title': $services.localization.render('help.applications.browseApplications.title'),
-  'description': $services.localization.render('help.applications.browseApplications.description'),
-  'tip': $services.localization.render('help.applications.browseApplications.tip', ["&lt;a href='http://extensions.xwiki.org/xwiki/bin/view/Extension/Extension+Manager+Application' class='wikiexternallink'&gt;", '&lt;/a&gt;']),
+  'title': $services.localization.render('help.applications.browse.title'),
+  'description': $services.localization.render('help.applications.browse.description'),
+  'tip': $services.localization.render('help.applications.browse.tip', ["&lt;a href='http://extensions.xwiki.org/xwiki/bin/view/Extension/Extension+Manager+Application' class='wikiexternallink'&gt;", '&lt;/a&gt;']),
   'thumbnail': 'EM',
   'actions': [{
     'label': $services.localization.render('help.browse.label'),
@@ -97,7 +97,7 @@
   'thumbnail': 'Help.Applications.WebHome@menu.png'
 }, {
   'title': $services.localization.render('help.applications.ideas.title'),
-  'description': $services.localization.render('help.applications.ideas.decription'),
+  'description': $services.localization.render('help.applications.ideas.description'),
   'documentation': 'http://extensions.xwiki.org/xwiki/bin/view/Extension/Ideas',
   'icon': 'fa fa-lightbulb-o',
   'thumbnail': 'Help.Applications.WebHome@ideas.png'
@@ -145,7 +145,7 @@
     &lt;/div&gt;
   #end
 &lt;/div&gt;
-&lt;p&gt;&lt;a href="http://extensions.xwiki.org/xwiki/bin/view/Extension/#%7Ct=extensions&amp;p=1&amp;l=30&amp;s=doc.creationDate&amp;d=desc&amp;category=application" class="wikiexternallink"&gt;$services.localization.render('help.applications.viewMoreApplications')&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://extensions.xwiki.org/xwiki/bin/view/Extension/#%7Ct=extensions&amp;p=1&amp;l=30&amp;s=doc.creationDate&amp;d=desc&amp;category=application" class="wikiexternallink"&gt;$services.localization.render('help.applications.link')&lt;/a&gt;&lt;/p&gt;
 {{/html}}
 {{/velocity}}</content>
 </xwikidoc>

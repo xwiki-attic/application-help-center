@@ -44,16 +44,16 @@
 {{toc start="2" /}}
 {{/box}}
 
-$services.localization.render('help.macros.notifications.content', ['**'] ) [[$services.localization.render('help.learnMore.label')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Notifications%20Application/#HNotificationsMacro]]
+$services.localization.render('help.macros.notifications.content', ['**'] ) [[$services.localization.render('help.more.label')&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Notifications%20Application/#HNotificationsMacro]]
 
 
-== $services.localization.render('help.macros.notifications.wikiActivity') ==
+== $services.localization.render('help.macros.notifications.activity.title1') ==
 
 {{example}}
 {{notifications count="5" useUserPreferences="false" displayOwnEvents="true" wikis="$services.wiki.currentWikiId"/}}
 {{/example}}
 
-== $services.localization.render('help.macros.notifications.currentUserActivity') ==
+== $services.localization.render('help.macros.notifications.activity.title2') ==
 
 {{example}}
 {{notifications count="5" useUserPreferences="false" displayOwnEvents="true" users="$xcontext.user"/}}

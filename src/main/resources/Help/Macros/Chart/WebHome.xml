@@ -46,7 +46,7 @@
 
 $services.localization.render('help.macros.chart', ['**', '**', '[[', '&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Chart+Macro]]'])
 
-== $services.localization.render('help.macros.pieChart') ==
+== $services.localization.render('help.macros.chart.pie') ==
 
 === $services.localization.render('help.macros.example') 1 ===
 {{example}}
@@ -70,7 +70,7 @@ $services.localization.render('help.macros.chart', ['**', '**', '[[', '&gt;&gt;h
 {{/chart}}
 {{/example}}
 
-== $services.localization.render('help.macros.barChart') ==
+== $services.localization.render('help.macros.chart.bar') ==
 
 {{example}}
 {{chart type="bar" source="inline" params="range:B2-D5;series:columns;colors:C3E3F7,1D9FF5,015891,012A45;backgroundColor:FFFFFF;" title="Bar Chart"}}
@@ -83,7 +83,7 @@ $services.localization.render('help.macros.chart', ['**', '**', '[[', '&gt;&gt;h
 
 {{/example}}
 
-== $services.localization.render('help.macros.timeSeriesChart') ==
+== $services.localization.render('help.macros.chart.time') ==
 
 {{example}}
 {{chart type="xy_line_and_shape" params="range:B2-C19;dataset:timetable_xy;domain_axis_type:date;domain_axis_date_format:MMM-yyyy;date_format:yyyy-MM;time_period:month;range_axis_lower:100;range_axis_upper:190" title="Time Series Chart"}}
