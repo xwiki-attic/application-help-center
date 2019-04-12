@@ -53,34 +53,34 @@
 }, {
   'title': $services.localization.render('help.videos.videoCard2.title'),
   'topics': [
-   $services.localization.render('help.videos.videoCard2.topic1'),
-   $services.localization.render('help.videos.videoCard2.topic2'),
-   $services.localization.render('help.videos.videoCard2.topic3')
+    $services.localization.render('help.videos.videoCard2.topic1'),
+    $services.localization.render('help.videos.videoCard2.topic2'),
+    $services.localization.render('help.videos.videoCard2.topic3')
   ],
   'url': 'https://www.youtube.com/embed/zX1Itoh3E68',
   'duration': '5 min'
 }, {
   'title': $services.localization.render('help.videos.videoCard3.title'),
   'topics': [
-   $services.localization.render('help.videos.videoCard3.topic1'),
-   $services.localization.render('help.videos.videoCard3.topic2'),
-   $services.localization.render('help.videos.videoCard3.topic3')
+    $services.localization.render('help.videos.videoCard3.topic1'),
+    $services.localization.render('help.videos.videoCard3.topic2'),
+    $services.localization.render('help.videos.videoCard3.topic3')
   ],
   'url': 'https://www.youtube.com/embed/onenEu21FIk',
   'duration': '6 min'
 }, {
   'title': $services.localization.render('help.videos.videoCard4.title'),
   'topics': [
-   $services.localization.render('help.videos.videoCard4.topic1'),
-   $services.localization.render('help.videos.videoCard4.topic2')
+    $services.localization.render('help.videos.videoCard4.topic1'),
+    $services.localization.render('help.videos.videoCard4.topic2')
   ],
   'url': 'https://www.youtube.com/embed/csQVSRMVclM',
   'duration': '4 min'
 }, {
   'title': $services.localization.render('help.videos.videoCard5.title'),
   'topics': [
-   $services.localization.render('help.videos.videoCard5.topic1'),
-   $services.localization.render('help.videos.videoCard5.topic2')
+    $services.localization.render('help.videos.videoCard5.topic1'),
+    $services.localization.render('help.videos.videoCard5.topic2')
   ],
   'url': 'https://www.youtube.com/embed/Pv4jPCaU99g',
   'duration': '7 min'
@@ -88,7 +88,7 @@
   'title': $services.localization.render('help.videos.videoCard6.title'),
   'topics': [
     $services.localization.render('help.videos.videoCard6.topic1'),
-   $services.localization.render('help.videos.videoCard6.topic2')
+    $services.localization.render('help.videos.videoCard6.topic2')
   ],
   'url': 'https://www.youtube.com/embed/Q4NHu6J5pX4',
   'duration': '3 min'

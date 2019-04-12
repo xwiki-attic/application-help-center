@@ -78,7 +78,7 @@
 }])
 
 #set ($exampleCards = [{
-    'title': $services.localization.render('help.applications.blog.title'),
+  'title': $services.localization.render('help.applications.blog.title'),
   'description': $services.localization.render('help.applications.blog.description'),
   'documentation': 'http://extensions.xwiki.org/xwiki/bin/view/Extension/Blog+Application',
   'icon': 'fa fa-rss', 
