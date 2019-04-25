@@ -9,6 +9,6 @@ Application that showcases the main XWiki features through demo content.
 * [Development Practices](http://dev.xwiki.org)
 * Minimal XWiki version supported: XWiki 9.11
 * License: LGPL 2.1
-* Translations: N/A
+* [Translations](https://l10n.xwiki.org/projects/xwiki-contrib/application-help-center/)
 * Sonar Dashboard: N/A
 * Continuous Integration Status: [![Build Status](http://ci.xwiki.org/view/Contrib/job/XWiki%20Contrib/job/application-help-center/job/master/badge/icon)](http://ci.xwiki.org/view/Contrib/job/XWiki%20Contrib/job/application-help-center/job/master/)
