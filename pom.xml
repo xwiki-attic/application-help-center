@@ -44,7 +44,7 @@
   </developers>
   <issueManagement>
     <system>jira</system>
-    <url>http://jira.xwiki.org/browse/HELPCENTER</url>
+    <url>https://jira.xwiki.org/browse/HELPCENTER</url>
   </issueManagement>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/application-help-center.git</connection>
@@ -100,11 +100,13 @@
     <!-- Dependencies required by the demo content. -->
     <!--                                            -->
     <dependency>
-      <!-- Some links point to the Sandbox pages. -->
+      <!-- Some help pages use the Sandbox to let the user try editing content. That doesn't require the Sandbox
+           application per see, which is why this dependency is optional. -->
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-sandbox</artifactId>
       <version>${platform.version}</version>
       <scope>runtime</scope>
+      <optional>true</optional>
       <type>xar</type>
     </dependency>
     <dependency>
