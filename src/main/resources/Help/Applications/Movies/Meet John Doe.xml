@@ -195,6 +195,9 @@
       <boolean1>0</boolean1>
     </property>
     <property>
+      <content1/>
+    </property>
+    <property>
       <databaseList1>Help.Applications.Contributors.Frank Capra</databaseList1>
     </property>
     <property>
@@ -213,7 +216,7 @@
       </staticList1>
     </property>
     <property>
-      <user1/>
+      <title1/>
     </property>
   </object>
 </xwikidoc>

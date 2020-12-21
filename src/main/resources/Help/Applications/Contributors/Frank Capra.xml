@@ -145,6 +145,9 @@ After World War II, Capra's career declined as his later films such as //[[It's 
       </title1>
     </class>
     <property>
+      <content1/>
+    </property>
+    <property>
       <date1>1897-05-18 00:00:00.0</date1>
     </property>
     <property>
@@ -156,6 +159,9 @@ After World War II, Capra's career declined as his later films such as //[[It's 
         <value>producer</value>
         <value>writer</value>
       </staticList1>
+    </property>
+    <property>
+      <title1/>
     </property>
   </object>
 </xwikidoc>

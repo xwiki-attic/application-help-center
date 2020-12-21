@@ -141,6 +141,9 @@
       </title1>
     </class>
     <property>
+      <content1/>
+    </property>
+    <property>
       <date1>1889-04-16 00:00:00.0</date1>
     </property>
     <property>
@@ -152,6 +155,9 @@
         <value>director</value>
         <value>producer</value>
       </staticList1>
+    </property>
+    <property>
+      <title1/>
     </property>
   </object>
 </xwikidoc>
